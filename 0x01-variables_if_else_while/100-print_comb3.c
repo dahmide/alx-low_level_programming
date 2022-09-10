@@ -17,11 +17,9 @@ int main(void)
 		}
 		if ((i % 10) >= j)
 		{
-			if (i < 10)
-			{
-				putchar('0');
-			}
-			putchar((i % (j * 10)) + '0');
+			putchar((i / 10) + '0');
+			putchar((i % 10) + '0');
+
 			if (i == 89)
 			{
 				break;
