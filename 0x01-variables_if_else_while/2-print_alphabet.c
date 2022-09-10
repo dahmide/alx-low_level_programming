@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i = 0;
-	char str[] = "abcdefjhijklmnopqrstuvwxyz\n";
+	char str[] = "abcdefghijklmnopqrstuvwxyz\n";
 
 	while (i < 27)
 	{
