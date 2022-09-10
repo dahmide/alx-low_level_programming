@@ -7,13 +7,12 @@
 int main(void)
 {
 	int i = 0;
-	char str[] = "abcdefjhijklmnopqrstuvwxyz";
+	char str[] = "abcdefjhijklmnopqrstuvwxyz\n";
 
-	while (i < 26)
+	while (i < 27)
 	{
 		putchar(str[i]);
 		i = i + 1;
 	}
-	putchar("\n");
 	return (0);
 }
