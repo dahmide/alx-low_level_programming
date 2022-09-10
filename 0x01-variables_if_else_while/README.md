@@ -6,4 +6,5 @@ Task 4: Print all the letters except q and e. <br>
 Task 5: Prints all single digit numbers of base 10 starting from 0, followed by a new line. <br>
 Task 6: prints all single digit numbers of base 10 starting from 0, followed by a new line. <br>
 Task 7: Prints the lowercase alphabet in reverse, followed by a new line. <br>
+Task 8: Prints all the numbers of base 16 in lowercase, followed by a new line. <br>
 
