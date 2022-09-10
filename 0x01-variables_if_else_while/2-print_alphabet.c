@@ -7,10 +7,10 @@
 int main(void)
 {
 	int i = 0;
-	char alphabets[] = "abcdefjhijklmnopqrstuvwxyz\n";
+	char str[] = "abcdefjhijklmnopqrstuvwxyz";
 	while (i < 26)
 	{
-		putchar(alphabets[i]);
-		i++;
+		putchar(str[i]);
+		i = i + 1;
 	}
 }
