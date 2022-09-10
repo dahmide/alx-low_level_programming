@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int i = 27;
-	char str[] = "n\abcdefghijklmnopqrstuvwxyz";
+	int i = 0;
+	char str[] = "zyxwvutsrqponmlkjihgfedcba\n";
 
-	while (i > 0)
+	while (i < 27)
 	{
 		putchar(str[i]);
-		i = i - 1;
+		i++;
 	}
 	return (0);
 }
