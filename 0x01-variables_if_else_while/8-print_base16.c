@@ -9,7 +9,7 @@ int main(void)
 	int i = 0;
 	char str[] = "0123456789abcdef\n";
 
-	while (i < 16)
+	while (i < 17)
 	{
 		putchar(str[i]);
 		i++;
