@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i = 0;
-	char str[] = "0123456789abcdef/n";
+	char str[] = "0123456789abcdef\n";
 
 	while (i < 16)
 	{
