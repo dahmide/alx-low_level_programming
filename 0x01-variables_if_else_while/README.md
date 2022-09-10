@@ -8,4 +8,5 @@ Task 6: prints all single digit numbers of base 10 starting from 0, followed by 
 Task 7: Prints the lowercase alphabet in reverse, followed by a new line. <br>
 Task 8: Prints all the numbers of base 16 in lowercase, followed by a new line. <br>
 Task 9: Prints all possible combinations of single-digit numbers. <br>
+Task 10: Prints all possible different combinations of two digits. <br>
 
