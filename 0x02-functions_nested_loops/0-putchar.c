@@ -1,13 +1,20 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: null
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	write(1, "_putchar\n", 9);
-	return (0);
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+
+	putchar('\n');
 }
