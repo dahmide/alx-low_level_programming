@@ -2,10 +2,10 @@
 
 /**
  * print_sign - Entry point
- * @c: Int params
+ * @n: Int params
  *
  * Description: Print the sign of a number
- * Return: Print 1 for number greater than 0, 0 for number equals zero and -1 for number less than 0
+ * Return: 1 for n > 0, 0 for n = 0 and -1 n < 0
  */
 
 int print_sign(int n)
