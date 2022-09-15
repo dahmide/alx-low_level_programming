@@ -20,16 +20,16 @@ void jack_bauer(void)
 
 		if (min < 10)
 		{
-			write(1, '0', 1);
+			write(1, '0', 2);
 			write(1, &min, 1);
 		} else
 		{
 			write(1, &min, 2);
 		}
-		write(1, ':', 1);
+		write(1, ':', 2);
 		if (hrs < 10)
 		{
-			write(1, '0', 1);
+			write(1, '0', 2);
 			write(1, &hrs, 1);
 		} else
 		{
