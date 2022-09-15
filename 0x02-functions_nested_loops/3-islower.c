@@ -4,14 +4,15 @@
 /**
  * _islower - Entry point
  *
- * Return: Lowercase character
+ * Description: Check for lowercase character
+ * Return: 0 for non-lowercase character else 1
  */
 
 int _islower(int c)
 {
 	int x = islower(c);
 
-	if(x > 0)
+	if (x > 0)
 		return (1);
 	else
 		return (0);
