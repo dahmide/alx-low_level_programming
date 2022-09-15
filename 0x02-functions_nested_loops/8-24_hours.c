@@ -11,7 +11,7 @@
 void jack_bauer(void)
 {
 
-	for (int i = 0; i < 1440; i++)
+	for(int i = 0; i < 1440; i++)
 	{
 		int min = i % 60;
 		int hrs = (i / 60) % 24;
