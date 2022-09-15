@@ -3,12 +3,15 @@
 
 /**
  * _isabs - Entry point
- * 
- * Description: Computes the absolute value of an integer
+ * @x: Int params
+ *
+ * Description: Compute the absolute value of an integer
  * Return: Absolute value
  */
 
-int _isabs(int)
+int _isabs(int x)
 {
-	return (abs());
+	int res = abs(x);
+
+	return (res);
 }
