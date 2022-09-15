@@ -3,6 +3,7 @@
 
 /**
  * _islower - Entry point
+ * @c:  Character params
  *
  * Description: Check for lowercase character
  * Return: 0 for non-lowercase character else 1
