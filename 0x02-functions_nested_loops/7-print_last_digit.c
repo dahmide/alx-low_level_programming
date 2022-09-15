@@ -11,9 +11,7 @@
 
 int print_last_digit(int n)
 {
-	int x = n * 1;
+	int x = n;
 
-	x = abs(x);
-	x = x % 10;
-	return (x);
+	return ();
 }
