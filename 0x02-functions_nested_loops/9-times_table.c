@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void times_table(void) - Entry point
+ * times_table - Entry point
  *
  * Description: Print the 9 times table, starting with 0
  * Return: void
@@ -22,6 +22,7 @@ void times_table(void)
 
 			if (j < 10)
 			{
+				_putchar(' ');
 				_putchar(j + '0');
 			} else
 			{
