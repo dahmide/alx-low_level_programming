@@ -10,21 +10,33 @@
 void times_table(void)
 {
 	int i = 0;
-	int k = 0;
 
 	while (i <= 9)
 	{
+		int k = 0;
+
 		while (k <= 9)
 		{
 
 			int j = i * k;
-			_putchar('0' + j);
-			_putchar(',');
-			_putchar(' ');
+
+			if (j < 10)
+			{
+				_putchar(j);
+			} else
+			{
+				_putchar((j / 10) + '0');
+				_putchar((j % 10) + '0');
+			}
+
+			if (k != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 
 			k++;
 		}
-
 		i++;
 	}
 }
