@@ -22,7 +22,6 @@ void times_table(void)
 
 			if (j < 10)
 			{
-				_putchar(' ');
 				_putchar(j + '0');
 			} else
 			{
@@ -35,6 +34,9 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
+
+			if (j < 10)
+				_putchar(' ');
 
 			k++;
 		}
