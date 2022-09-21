@@ -18,6 +18,9 @@ void jack_bauer(void)
 		int min = floor(i);
 		int hrs = floor(i / 60);
 
+		min = min % 60;
+		hrs = hrs % 24;
+
 		if (min < 10)
 		{
 			_putchar('0');
