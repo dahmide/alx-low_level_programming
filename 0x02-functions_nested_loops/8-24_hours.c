@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include <math.h>
 
 /**
  * jack_bauer - Entry point
@@ -15,8 +15,8 @@ void jack_bauer(void)
 
 	while (i < 1440)
 	{
-		int min = i % 60;
-		int hrs = (i / 60) % 24;
+		int min = floor(i) % 60;
+		int hrs = floor(i / 60) % 24;
 
 		if (min < 10)
 		{
