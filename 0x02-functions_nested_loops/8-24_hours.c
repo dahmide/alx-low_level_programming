@@ -15,8 +15,11 @@ void jack_bauer(void)
 
 	while (i < 1440)
 	{
-		int min = floor(i) % 60;
-		int hrs = floor(i / 60) % 24;
+		float m = i;
+		float h = i / 60;
+
+		int min = floor(m) % 60;
+		int hrs = floor(h) % 24;
 
 		if (min < 10)
 		{
